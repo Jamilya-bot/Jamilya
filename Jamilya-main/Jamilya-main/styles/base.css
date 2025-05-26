@@ -6,11 +6,11 @@
 
 html,
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Arial', sans-serif;
     font-size: 18px;
     line-height: 30px;
-    color: #fffff0;
-    background-color: #ffb6c1;
+    color: #556b5b;
+    background-color: #800000;
     overflow-x: hidden;
 }
 img {
@@ -29,9 +29,4 @@ img {
     clip-path: inset(100%);
     clip: rect (0 0 0 0);
     overflow: hidden;
-}
-.container{
-    width: 1440px;
-    margin-left: auto;
-    margin-right: auto;
 }
