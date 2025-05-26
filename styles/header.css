@@ -1,0 +1,16 @@
+.header__list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+.header__nav-link{
+    display: block;
+    padding: 10px;
+    margin: 5px;
+
+    background-color: #b1aaaa;
+    color:#3aeb69;
+    text-decoration: none;
+}
