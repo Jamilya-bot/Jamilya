@@ -1,0 +1,73 @@
+.welcome{
+    background-color: #fffff0;
+    color: #daa520;
+    padding: 10px;
+}
+.excursions__item {
+    width: 350px;
+    padding: 15px;
+    background-color: #fffff0;
+    color: #daa520;
+    box-shadow: 1px 2px 20px 5px #d7d7d7;
+}
+.excursions__desc{
+maargin-top: 0;
+margin-bottom: 15px;
+}
+
+.excursions__link{
+    display: block;
+    padding: 10px;
+    background-color: #ffb6c1;
+    color: #fffff0;
+    text-decoration: none;
+    text-align: center;
+}
+.excursions__list{
+margin: 0;
+padding: 20px;
+display: flex;
+gap: 20px;
+flex-wrap: wrap;
+list-style-type: none;
+}
+.excursions__item{
+display: flex;
+flex-direction: column;
+}
+
+.excursions__list{
+    margin-top: auto;
+}
+.excursions__image{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+.excursions__button{
+    background-color: #ffb6c1;
+    color: #fffff0;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+.excursions__button{
+    transition: background-color 0.3s, 
+    color 0.3s;
+}
+.excursions__button:hover {
+    background-color: #ce6171;
+    color: #fffff0
+}
+.excursions__item {
+    transition: transform 0.3s;
+}
+.excursions__item {
+    transform: scale(1.03);
+}
+.excursions__item {
+    transition: box-shadow 0.3s;
+}
+.excursions__item:hover {
+    box-shadow: 0 8px 16px 0
+    rgba (0,0,0,0.2);
+}
